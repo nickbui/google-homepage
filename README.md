@@ -1,0 +1,1 @@
+This is my first HTML and CSS project. I recreated the google home page but without the functionality. The purpose of this project is to practice my front end skills. 

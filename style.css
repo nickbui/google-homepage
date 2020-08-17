@@ -1,0 +1,29 @@
+body {
+    height: 10em;
+    position: relative
+}
+ div.googleimage{
+    margin:0;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+ }
+ div.searchbar{
+    margin:0;
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+ }
+div.Buttons{
+    margin:0;
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

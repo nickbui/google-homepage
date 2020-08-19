@@ -1,3 +1,13 @@
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+
 body {
     height: 10em;
     position: relative
@@ -26,4 +36,13 @@ div.Buttons{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background-color: lightgray;
+    color: black;
 }

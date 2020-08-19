@@ -1,48 +1,165 @@
-
-.navbar{
+.absolute-container{
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
 }
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 ul{
-    list-style-type: none;
+    list-style-type:none;
+    margin:0;
+    padding: 0;
 }
 
-body {
-    height: 10em;
-    position: relative
+nav ul li {
+    font-size: 14px;
+    margin-top: 10px;
 }
- div.googleimage{
-    margin:0;
-    position: absolute;
-    top: 150%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
- }
- div.searchbar{
-    margin:0;
-    position: absolute;
-    top: 220%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
 
- }
-div.Buttons{
-    margin:0;
-    position: absolute;
-    top: 250%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+#nav_bar_left {
+    margin-left: 25px;
+    float:left;
+}
+
+#nav_bar_right{
+    float:right;
+}
+
+#nav_bar_left li{
+    display: inline-block;
+    padding: 8px;
+}
+
+#nav_bar_right li{
+    display: inline-block;
+    padding: 8px;
+}
+
+#nav_bar_right #sign_in{
+    background: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight:bold;
+}
+
+.nav-links {
+    color: #404040;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li.nav-links a:hover{
+    box-shadow: 1px 1px 5px #999;
+}
+
+#sign-in{
+    color:#fff;
+}
+
+#google_logo {
+    text-align: center;
+    display:block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+
+.form{
+    text-align: center;
+}
+
+#form-search:hover{
+    box-shadow: 1px 5px rgb(190, 190, 190);
+}
+
+#form-search{
+    width: 450px;
+    line-height: 32px;
+    border-radius: 25px;
+    border: 1px solid rgb(194, 193, 193);
+}
+
+.form #form-search{
+    padding: 5px 20px;
+}
+
+.Buttons{
+    text-align:center;
+    padding-top: 12px;
+}
+
+#google_search, #im_feeling_lucky{
+    padding: 9px 18px;
+    margin: 0px 5px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    border-radius: 7px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(105, 105, 105 );
+}
+
+#google_search, #im_feeling_lucky:focus{
+    outline:none;
+}
+
+#google_search:hover{
+    outline:none;
+    cursor: pointer;
+    border: 1px solid rgb(201, 201, 201);
+    color: rgb (41, 41, 41);
+    box-shadow: 1px 1px 1px rgb(190, 190, 190);
+}
+
+#im_feeling_lucky:hover{
+    outline:none;
+    cursor: pointer;
+    border: 1px solid rgb(190, 190, 190);
 }
 
 footer{
-    position: fixed;
-    left: 0;
+    position: absolute;
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
     bottom: 0;
-    width:100%;
-    background-color: lightgray;
-    color: black;
+    padding: 15px 0px;
+    width: 100%;
 }
+
+footer ul{
+    display:inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+}
+
+footer ul{
+    float: left;
+    padding: 1px;
+}
+
+footer ul a:hover{
+    text-decoration: underline;
+}
+
+.footer-left{
+    float:left;
+    margin-left: 10px;
+}
+
+.footer-right{
+    float:right;
+    margin-right: 10px;
+}
+
+

@@ -1,7 +1,5 @@
-.absolute-container{
-    display:flex;
-    flex-direction: column;
-    height: 100vh;
+header{
+    width: 100%;
 }
 
 body{
@@ -88,7 +86,7 @@ li.nav-links a:hover{
     border: 1px solid rgb(194, 193, 193);
 }
 
- #form-search{
+.form #form-search{
     padding: 5px 20px;
 }
 
